@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  
+        word-wrap: break-word;     
+    }
+    body{
+        padding: 10px;
+        margin: 0;
+    }
+     h1{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: rgb(13, 147, 249);
+    }
+    h2,h3{
+        color: gray;
+    }
+    header{
+        display: block;
+        border-top: 1px solid gray;
+        border-bottom: 1px solid gray;
+
+    }
+    #head ul{
+        list-style-type: none;
+        list-style: none;
+        overflow: hidden;
+    }
+    #head ul li{
+        float: left;
+    }
+    #head ul li a{
+        display: block;
+        color: rgb(13, 147, 249);
+        text-align: center;
+        padding-right: 15px;
+        text-decoration: none; 
+    }
+    img{
+        position: relative;
+        height: 500px;
+        width: 60%;
+        float: left;
+        margin: 20px;
+    }
+    .container{
+        position: relative;
+        display:block;
+        margin: 10px;
+        height: min-content;
+    }
+    #span>h2{
+        color: gray;
+    }
+    .text{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    table{
+        width: 100%;
+        text-align: center;
+        border: 1px solid gray;
+        border-collapse: collapse;
+    }
+    tr,td{
+        border: 1px dotted grey;
+        border-collapse: collapse;
+    }
+    .page-2{
+        width: 100%;
+    }
+    @media screen and (min-width :775px) {
+        body{
+            width: 100%;
+            padding: 0;
+        }
+        header{
+            width: 100%;
+        }
+    }
+</style>
+<body>
+    <h1>Example <br> cafe</h1>
+    <header id="head">
+        <ul>
+            <li> <a href="#">HOME</a> </li>
+            <li> <a href="#">MENU</a> </li>
+            <li> <a href="#">RECIPES</a> </li>
+            <li> <a href="#">OPENING</a> </li>
+            <li> <a href="#">CONTACTS</a> </li>
+        </ul>
+    </header>
+    <div class="container">
+    <img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=60" alt="">
+       <span id ="span">
+            <h2>A community cafe serving
+                home cooked, locally
+                sourced, organic food</h2>
+                <span>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, aperiam, perferendis quaerat ad officiis nobis soluta est hic, pariatur accusantium praesentium dignissimos nemo ullam! At sequi impedit fugit reiciendis neque?
+                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae porro consequatur voluptatum ducimus quo eveniet sapiente error perferendis, corrupti aspernatur nobis ut voluptate, quaerat maiores explicabo ad minus. Placeat, repellat.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam ab ipsa nisi molestias obcaecati ducimus dignissimos assumenda optio hic similique impedit culpa, perspiciatis error libero sunt reiciendis magnam cum illum.
+                </span>
+                <h2>This weekend's special
+                    brunch</h2>
+                    <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore temporibus, repellendus quas cupiditate atque animi distinctio non ullam iusto! Impedit necessitatibus vero praesentium aliquid at eligendi facilis ut eveniet distinctio?
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident temporibus doloribus omnis expedita. Debitis blanditiis, quas asperiores veniam nostrum quae reiciendis earum unde facere quisquam animi, soluta iste eius dicta?
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est, nam perspiciatis! Vero iusto nobis veritatis, itaque nostrum aliquam minus optio ipsum veniam, aspernatur consequuntur exercitationem mollitia repellendus tempore, facere fugit?
+                        Expedita, veritatis. Maxime error doloremque natus, nesciunt magni iste aspernatur reiciendis vero ratione, corporis recusandae nostrum. Eius praesentium, sunt eligendi, doloribus molestiae, dicta numquam quas dignissimos molestias iste hic mollitia.
+                        Molestiae at corrupti deleniti tempora facere inventore sed deserunt? Optio quaerat repellendus cumque repellat, consectetur odio! Error incidunt facilis autem laborum, quidem reprehenderit, consectetur praesentium ipsum magnam dicta ut voluptates.
+                    </span>
+                </span>
+    </div>
+    <div class="page-2">
+    <h1>Menu</h1>
+    <h2>Starters</h2>
+    <ul>
+        <li>Chestnut and Mushroom Goujans (<span><a href="#">V</a></span>)</li>
+        <li>Goat Cheese Salad (<span><a href="#">V</a></span>)</li>
+        <li>Honey Soy Chicken Kebabs</li>
+        <li>Seafood Salad</li>
+    </ul>
+    <p><a href="#head">Back on top</a></p>
+
+    <h2>Main Courses</h2>
+    <ul>
+        <li>Spinach and Ricotta Roulade (<span><a href="#">V</a></span>)</li>
+        <li>Beef Tournados with Mustard and Dill Sauce</li>
+        <li>Roast Chicken Salad</li>
+        <li>Icelandic Cod with Parsley Sauce</li>
+        <li>Mushroom Wellington (<span><a href="#">V</a></span>)</li>
+    </ul>
+    <p><a href="#head">Back on top</a></p>
+
+    <h2>Deserts</h2>
+
+    <ul>
+        <li>Lemon (<span><a href="#">V</a></span>)</li>
+        <li>Chocolate Mud Pie (<span><a href="#">V</a></span>)</li>
+        <li>Pecan Pie (<span><a href="#">V</a></span>)</li>
+        <li>Selection of Fine Cheeses from Around the World</li>
+    </ul>
+    <h2>Recipies - World's Best Scrambled Eggs</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem hic nesciunt voluptate doloribus vel dolores odit porro! Dolore aperiam voluptas quae in eos ad autem eveniet. Perspiciatis alias optio voluptas.
+        </p><p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci eligendi voluptatum explicabo quod officia, labore doloremque alias sed excepturi ex, atque modi minus vero fuga amet aliquid inventore earum eius!
+    </p>
+    <h3>Ingredients</h3>
+    <p>The FOllowing ingredients make one serving</p>
+    <ul>
+        <li>2 eggs</li>
+        <li>1 tablespoon of butter (1Og)</li>
+        <li>1/3 cup of cream (2 3/4 flounces)</li>
+        <li>A pinch of salt</li>
+        <li>Freshly milled black pepper</li>
+        <li>3 fresh chives (chopped)</li>
+    </ul>
+    <h2>Instructions</h2>
+    <ol>
+        <li>Whisk eggs, cream, and salt in a bowl.</li>
+        <li>Melt the butter in a non-stick pan over a high heat (taking care not to burn the butter)-</li>
+        <li>Pour egg mixture into pan and wait until it starts setting around the edge of the pan (around 20 seconds).</li>
+        <li>Using a wooden spatula, bring the mixture into the center as if it were an omelet, and let it cook for another 20 seconds.</li>
+        <li>Fold contents in again, leave for 20 seconds, and repeat until the eggs are only just done.</li>
+        <li>Grind a light sprinkling of freshly milled pepper over the eggs and blend in some chopped fresh chives.</li>
+    </ol>
+    <p>You should only make a <strong>Maximum</strong> of two servings per frying pan</p>
+</div>
+    <h1>Opening</h1>
+    <table cellpadding="10">
+        <caption>Opening gour for the Example Cafe in NewQuay</caption>
+        <tr>    
+            <th></th>
+            <th>Monday</th>
+            <th>Tuesday</th>
+            <th>Wednesday</th>
+            <th>Thursday</th>
+            <th>Friday</th>
+            <th>Saturday</th>
+            <th>Sunday</th>
+        </tr>
+        <tr>
+            <td rowspan="2">Breakfast</td>
+            <td>7:00am</td>
+            <td>7:00am</td>
+            <td>7:00am</td>
+            <td>7:00am</td>
+            <td>7:00am</td>
+            <td>7:00am</td>
+            <td>7:00am</td>
+        </tr>
+        <tr>
+            <td>10:00am</td>
+            <td>10:00am</td>
+            <td>10:00am</td>
+            <td>10:00am</td>
+            <td>10:00am</td>
+            <td>10:00am</td>
+            <td>10:00am</td>
+        </tr>
+        <tr>
+            <td rowspan="2">Lunch</td>
+            <td>11:30am</td>
+            <td>11:30am</td>
+            <td>11:30am</td>
+            <td>11:30am</td>
+            <td>11:30am</td>
+            <td>11:30am</td>
+            <td>11:30am</td>
+        </tr>
+        <tr>
+            <td>2:30pm</td>
+            <td>2:30pm</td>
+            <td>2:30pm</td>
+            <td>2:30pm</td>
+            <td>2:30pm</td>
+            <td>2:30pm</td>
+            <td>2:30pm</td>
+        </tr>
+
+    </table>
+</body>
+</html>
